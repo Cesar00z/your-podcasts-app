@@ -96,7 +96,7 @@ li {
   display:flex;
   align-items:center;
   position:absolute;
-  top:115%;
+  top:125%;
   left:50%;
   transform:translate(-50%, -100%);
   padding:10px 20px;
@@ -105,6 +105,10 @@ li {
   color:#fff;
   border-radius:20px;
   font-size:1.2em;
+}
+
+.auth-button:hover {
+  cursor: pointer;
 }
 
 .auth-button__icon{

@@ -6,11 +6,22 @@
   background-color: #208b3a;
   align-items: center;
   box-shadow: 0 2px 5px #000;
-  position: sticky;
 }
 
-.menu ul > h2 {
+
+.logo-container {
   margin-right: auto;
+  transition: filter .5s;
+}
+
+.logo-container:hover {
+  filter: drop-shadow(0 0 5px #57b655);
+}
+
+.logo {
+  background: url('./assets/logo.svg') no-repeat center;
+  width: 200px;
+  height: 85px;
 }
 
 a {
@@ -18,7 +29,7 @@ a {
   color: #fff;
 }
 
-a:hover {
+li a:hover {
   border-bottom: 1px solid #fff;
 }
 

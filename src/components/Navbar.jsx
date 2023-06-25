@@ -10,7 +10,7 @@ export default function Navbar() {
             <a href="#">lorem ipsum</a>
           </li>
           <li>
-            <a href="#">lorem ipsum</a>
+            <a href="#servicios">Servicios</a>
           </li>
           <li>
             <a href="#">lorem ipsum</a>

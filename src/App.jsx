@@ -8,7 +8,8 @@ function App() {
     <>
       <Navbar />
       <Section1 />
-      <div className='container'>
+      <h2>Servicios</h2>
+      <div className='container' id='servicios'>
 
         <CardServices
           img='https://images.pexels.com/photos/7600892/pexels-photo-7600892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
